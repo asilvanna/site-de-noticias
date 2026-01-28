@@ -1,15 +1,74 @@
 * {
   padding: 0;
   margin: 0;
+font-family: "Poppins", sans-serif;
+
 }
 header{
     background-color: #000000;
     color: #FFFFFF;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 header nav a {
+    font-size: 16px;
+    font-weight: 600;
     color: #FFFFFF;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+header nav a:first-child {
+  color: #52C8FF;
+}
+
+eader nav a:nth-child(1):hover {
+  color: #52C8FF;
+}
+
+header nav a:nth-child(2):hover {
+  color: #E45F5F;
+}
+
+header nav a:nth-child(3):hover {
+    color: #00FF55 ;
+}
+
+header nav a:nth-child(4):hover {
+    color: #9700DD;
+}
+
+header nav a:nth-child(5):hover {
+    color: #FF00EE ;
+}
+
+header nav a:hover {
+  color: #52C8FF;
+}
+
+.logo {
+  display: flex;
+}
+
+
+.logo img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+header nav {
+    display: flex;
+    gap: 70px;
+}
+
+.icones-header {
+    display: flex;
+    gap: 20px;
 }
 
 .cor-azul-bebe {
