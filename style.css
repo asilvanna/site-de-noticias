@@ -4,6 +4,7 @@
 font-family: "Poppins", sans-serif;
 
 }
+
 header{
     background-color: #000000;
     color: #FFFFFF;
@@ -57,8 +58,8 @@ header nav a:hover {
 
 
 .logo img {
-    max-width: 20px;
-    max-height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 header nav {
@@ -71,8 +72,44 @@ header nav {
     gap: 20px;
 }
 
+main {
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+}
+
+#Primeira-seçao-noticias {
+    display: flex;
+    line-height: 21px;
+
+}
+
+#Segunda-seçao-noticias {
+    display: flex;
+    line-height: 21px;
+}
+
+.noticia-grupo-1{
+    width: 32%;
+}
+
+.noticia-grupo-1 img {
+  width: 90%;
+  border-radius: 10px;
+  height: 100px;
+  object-fit: cover;
+  
+
+}
+
+
 .cor-azul-bebe {
     color: #46ABD9 ;
+}
+
+#foto {
+    width: 500px;
 }
 
 .cor-azul-escuro {
@@ -87,7 +124,33 @@ header nav {
     padding-right: 14px;
     padding-top: 17px ;
     padding-bottom: 13px;
-border-radius: 9px ;
+    border-radius: 9px ;
+}
+
+.Noticia-principal{
+    font-size: 15px;
+    line-height: 50px;
+
+}
+
+main section:first-child {
+  width: 60%;
+  padding-right: 50px;
+  border-right: 1px solid black;
+}
+
+main section :first-child(2) {
+    width: 20%;
+    padding: 0 50px ;
+    border-right: 1px solid black;
+}
+
+main section :first-child(3) {
+    width: 20%;
+}
+
+main article img {
+    width: 150px;
 }
 
 footer {
